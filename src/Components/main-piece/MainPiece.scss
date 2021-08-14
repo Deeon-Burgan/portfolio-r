@@ -49,8 +49,12 @@
 
                 }
 
+                transition: background 0.5s, color 0.5s; 
+
                 &:hover{
                     cursor: pointer;
+                    background: white;
+                    color: black;
                 }
             }
         }

@@ -1,0 +1,16 @@
+.lineBreak{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    p{
+        margin: 20px 20px;
+        font-size: 2vh;
+    }
+
+    div{
+        width: 15vw;
+        height: 1px;
+        background: black;
+    }
+}
