@@ -21,7 +21,7 @@ export default function Navbar() {
                     Careers
                 </li>
                 <li>
-                    Conact Us
+                    Contact Us
                 </li>
                 <li>
                     Support

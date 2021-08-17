@@ -1,0 +1,35 @@
+#news{
+    display: flex;
+    direction: row;
+    justify-content: center;
+    margin: auto;
+    width: 75vw;
+
+    .newsContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid rgba(128, 128, 128, 0.678);
+        width: 20vw;
+        // height: 40vh;
+        margin: 10px;
+        
+
+        .newsImage{
+            width: auto;
+        }
+
+        .newsDescription{
+            width: 100%;
+            h1{
+                font-size: 20px;
+                font-weight:lighter;
+            }
+
+            p{
+                font-size: 14px;
+                font-weight: lighter;
+            }
+        }
+    }
+}
