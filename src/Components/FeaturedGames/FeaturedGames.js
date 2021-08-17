@@ -3,6 +3,7 @@ import './FeaturedGames.scss'
 
 export default function FeaturedGames() {
     return (
+        <div className='flexContainerCenter'>
         <div className='featuredGames'>
             <div id='container1'>
 
@@ -20,6 +21,7 @@ export default function FeaturedGames() {
                 <img src='https://static.wixstatic.com/media/bc9d97_030814481dbe43c2974ec9639e143186~mv2.jpg/v1/crop/x_46,y_0,w_1192,h_712/fill/w_622,h_378,al_c,q_90/maxresdefault-14.webp'/>
             </div>
             </div>
+        </div>
         </div>
     )
 }
