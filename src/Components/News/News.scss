@@ -5,6 +5,15 @@
     margin: auto;
     width: 75vw;
 
+    @media screen and (max-width: 800px){
+        flex-direction: column;
+        align-items: center;
+
+        .newsContainer{
+            width: 85% !important;
+        }
+    }
+
     .newsContainer{
         display: flex;
         flex-direction: column;
