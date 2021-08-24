@@ -6,28 +6,19 @@ export default function Navbar() {
         <nav id='site-header'>
             <ul>
                 <li>
-                    PlaySide
-                </li>
-                <li>
                     Home
                 </li>
                 <li>
-                    Mobile
+                    Games
                 </li>
                 <li>
-                    PC/VR
+                    Web
                 </li>
                 <li>
-                    Careers
+                    About me
                 </li>
                 <li>
-                    Contact Us
-                </li>
-                <li>
-                    Support
-                </li>
-                <li>
-                    Investor Centre
+                    Contact
                 </li>
             </ul>
         </nav>

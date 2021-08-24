@@ -26,7 +26,7 @@ export default function Gallery() {
             })}
         </div>
         <div className='moreGames'>
-            <p>More Games</p>
+            <p>More</p>
         </div>
             </div>
     )

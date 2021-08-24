@@ -1,0 +1,31 @@
+.flagBreak{
+    display: flex;
+    justify-content: center;
+    .flag{
+        margin: 2%;
+        width: 65%;
+        height: 10vh;
+        max-width: 980px;
+        
+        border: 1px solid rgba(128, 128, 128, 0.377);
+
+
+        #top{
+            width: 100%;
+            height: 37.5%;
+            background: #FFBCD9;
+        }
+
+        #mid{
+            width: 100%;
+            height: 25%;
+            background: #DCC0E0;
+        }
+
+        #bottom{
+            width: 100%;
+            height: 37.5%;
+            background: #87CEEB;
+        }
+    }
+}

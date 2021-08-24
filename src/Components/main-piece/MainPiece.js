@@ -4,12 +4,14 @@ import './MainPiece.scss'
 export default function MainPiece() {
     return (
         <div className='mainPiece'>
-            <video className='video' autoPlay loop muted>
-                <source src='https://video.wixstatic.com/video/bc9d97_4a02b201501f42e291b3627a3caacf7c/720p/mp4/file.mp4' />
-            </video>
+            {/* <video className='video' autoPlay loop muted>
+                <source src="https://video.wixstatic.com/video/bc9d97_4a02b201501f42e291b3627a3caacf7c/1080p/mp4/file.mp4" type='video/mp4'/>
+            </video> */}
+            {/* <iframe className='video' src="https://www.youtube.com/embed/1Pi98kyh1Jg?rel=0?version=3&autoplay=1&controls=0&loop=1&mute=1" title="YouTube video player" frameborder="0" allowfullscreen allow='autoplay; loop'></iframe> */}
+            <iframe className='video' width="1640" height="1080" src="https://www.youtube.com/embed/1Pi98kyh1Jg?playlist=1Pi98kyh1Jg&loop=1&mute=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; loop; mute;" allowfullscreen></iframe>
             <div className='overlay'>
 
-                <img src="https://static.wixstatic.com/media/bc9d97_14df94db12ad46f2bcca9502bf0b5081~mv2.png/v1/fill/w_600,h_240,al_c,q_95/AoD_Logo_NoShadow%20(2).webp" className='mainPieceTitle' />
+                <img src="https://www.picotanks.com/wp-content/uploads/2019/05/PTMM_logo.png" className='mainPieceTitle' />
                 <ul>
                     <li>
                         <p>Watch Trailer</p>
