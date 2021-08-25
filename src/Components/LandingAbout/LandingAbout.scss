@@ -1,0 +1,25 @@
+.landingAbout{
+    margin: 2vh;
+
+    .thingo1{
+        background: rgba(237, 153, 248, 0.452);
+    }
+
+    .cursor{
+        background: white;
+    }
+
+    #landingImage{
+        
+        img{
+            background: lavender;
+            border-radius: 50%;
+        }
+    }
+
+    #landingHeading{
+        h1{
+            text-transform:uppercase;
+        }
+    }
+}

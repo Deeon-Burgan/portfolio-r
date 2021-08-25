@@ -9,11 +9,14 @@ import ImageBreak from './Components/ImageBreak/ImageBreak';
 import Gallery from './Components/Gallery/Gallery';
 import GamePitch from './Components/GamePitch/GamePitch';
 import FlagBreak from './Components/FlagBreak/FlagBreak';
+import LandingAbout from './Components/LandingAbout/LandingAbout';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <LandingAbout/>
+      <LineBreak line='Portfolio' />
       <MainPiece />
       <LineBreak line='Featured Projects' />
       <FeaturedGames />
