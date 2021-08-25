@@ -19,13 +19,21 @@
     .gameContainer{
 
         margin: 1%;
+        width: 30%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border: 1px solid rgba(128, 128, 128, 0.377);
+        background: rgba(70, 70, 70, 0.11);
 
         &:hover{
             cursor: pointer;
         }
 
         img{
-
+            width: 100%;
         }
     }
 }
