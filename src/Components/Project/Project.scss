@@ -1,0 +1,23 @@
+.Project{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    .projectContainer{
+        width: 90vw;
+        height: 90vh;
+        background: rgba(53, 53, 53, 0.671);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #projectInside{
+            width: 95%;
+            height: 95%;
+            background: rgb(223, 222, 222);
+        }
+    }
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap');
+
 .landingAbout{
     margin: 2vh;
 
@@ -20,6 +22,8 @@
     #landingHeading{
         h1{
             text-transform:uppercase;
+            font-size: clamp(24px, 5vh, 64px);
+            font-family: 'Open Sans', sans-serif;
         }
     }
 }

@@ -9,16 +9,13 @@ export default function Navbar() {
                     Home
                 </li>
                 <li>
-                    Games
-                </li>
-                <li>
-                    Web
-                </li>
-                <li>
                     About me
                 </li>
                 <li>
-                    Contact
+                    Skills
+                </li>
+                <li>
+                    Projects
                 </li>
             </ul>
         </nav>
