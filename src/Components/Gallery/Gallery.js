@@ -1,7 +1,8 @@
 import React from 'react'
 import './Gallery.scss'
+import { forwardRef } from 'react'
 
-export default function Gallery() {
+const Gallery = React.forwardRef((props, ref) => {
 
     const games = [
         'https://eildonlakemotel.netlify.app/static/media/bannerLogo.02a11922.png',
@@ -16,7 +17,7 @@ export default function Gallery() {
 
     return (
         <div>
-        <div className='gallery'>
+        <div className='gallery' ref={ref}>
             {games.map((game) => {
                 return (
                     <div className='gameContainer'>
@@ -24,9 +25,11 @@ export default function Gallery() {
                 </div>);
             })}
         </div>
-        <div className='moreGames'>
+        {/* <div className='moreGames'>
             <p>More</p>
-        </div>
+        </div> */}
             </div>
     )
-}
+})
+
+export default Gallery;

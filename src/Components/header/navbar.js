@@ -1,23 +1,26 @@
 import React from 'react'
 import './header.scss'
+import { Link } from 'react-router-dom'
 
-export default function Navbar() {
+const Navbar = React.forwardRef((props, ref) => {
     return (
-        <nav id='site-header'>
+        <nav id='site-header' ref={ref}>
             <ul>
                 <li>
-                    Home
+                <Link to={{pathname:'/',
+                               state:{scrollpoint:undefined}}}>Home</Link>
                 </li>
                 <li>
-                    About me
+                    <Link to={{pathname:'/',
+                               state:{scrollpoint:'Projects'}}}>Projects</Link>
                 </li>
                 <li>
-                    Skills
-                </li>
-                <li>
-                    Projects
+                <Link to={{pathname:'/',
+                               state:{scrollpoint:'Skills'}}}>Skills</Link>
                 </li>
             </ul>
         </nav>
     )
-}
+})
+
+export default Navbar;

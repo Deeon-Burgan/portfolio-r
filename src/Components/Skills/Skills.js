@@ -2,7 +2,7 @@ import React from 'react'
 import SkillsGroup from './group/skillsGroup'
 import './Skills.scss'
 
-export default function Skills() {
+const Skills = React.forwardRef((props, ref) => {
 
     const skills={
         'Front-End':{
@@ -37,11 +37,13 @@ export default function Skills() {
     }
 
     return (
-        <div className='skills'>
+        <div className='skills' ref={ref}>
             <SkillsGroup skills={skills['Front-End']}/>
             <SkillsGroup skills={skills['Back-End']}/>
             <SkillsGroup skills={skills['Games']}/>
             <SkillsGroup skills={skills['Other']}/>
         </div>
     )
-}
+})
+
+export default Skills;
