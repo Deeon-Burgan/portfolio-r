@@ -136,7 +136,9 @@ function App() {
     }
   }
 
+  document.title = 'Deeon Burgan';
   return (
+
     <div className="App">
       <Switch>
         <Route path='/' exact component={HomePage} />
