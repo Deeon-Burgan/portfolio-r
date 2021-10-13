@@ -14,10 +14,10 @@ export default function MainPiece() {
                 <img src="https://www.picotanks.com/wp-content/uploads/2019/05/PTMM_logo.png" className='mainPieceTitle' />
                 <ul>
                     <li>
-                        <p>Watch Trailer</p>
+                        <p onClick={()=>{window.open("https://www.youtube.com/watch?v=BmjuDvCMfq8");}}>Watch Trailer</p>
                     </li>
                     <li>
-                        <p>Visit Site</p>
+                        <p onClick={()=>{window.open("https://www.picotanks.com");}}>Visit Site</p>
                     </li>
                 </ul>
             </div>

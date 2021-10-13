@@ -1,6 +1,7 @@
 import React from 'react'
 import './Gallery.scss'
 import { forwardRef } from 'react'
+import { Link } from 'react-router-dom'
 
 const Gallery = React.forwardRef((props, ref) => {
 
@@ -14,21 +15,25 @@ const Gallery = React.forwardRef((props, ref) => {
         'https://i.ibb.co/N74L8m6/Untitledoasfaoifsn.jpg',
         'https://static.wixstatic.com/media/b5ed1f_6c554ab109084cfbb900d33a8c08a3c3~mv2.png/v1/fill/w_548,h_385,al_c,q_85,usm_0.66_1.00_0.01/RockCandyRacer_PNG.webp'
     ]
+    const names = ['LakeEildonMotel', 'PicoTanks', 'Archon', 'HarvestHands', 'ColorsCubed', 'DDStonks', 'LootersExchange', 'RockCandyRacer']
 
     return (
         <div>
-        <div className='gallery' ref={ref}>
-            {games.map((game) => {
-                return (
-                    <div className='gameContainer'>
-                    <img src={game}/>
-                </div>);
-            })}
-        </div>
-        {/* <div className='moreGames'>
+            <div className='gallery' ref={ref}>
+                {games.map((game, index) => {
+                    return (
+                        <Link to={`/project/${names[index]}`} className='gameContainer'>
+                            <div>
+                                <img src={game} />
+                            </div>
+                        </Link>
+                    );
+                })}
+            </div>
+            {/* <div className='moreGames'>
             <p>More</p>
         </div> */}
-            </div>
+        </div>
     )
 })
 
