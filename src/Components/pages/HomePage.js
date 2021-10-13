@@ -37,6 +37,8 @@ export default function HomePage(params) {
                         console.log('Should scroll to skills')
                     }
                     break;
+                    default:
+                        break;
             }
         }
     }, [scrollpoint])

@@ -11,7 +11,7 @@ export default function MainPiece() {
             <iframe className='video' width="1640" height="1080" src="https://www.youtube.com/embed/1Pi98kyh1Jg?playlist=1Pi98kyh1Jg&loop=1&mute=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; loop; mute;" allowfullscreen></iframe>
             <div className='overlay'>
 
-                <img src="https://www.picotanks.com/wp-content/uploads/2019/05/PTMM_logo.png" className='mainPieceTitle' />
+                <img src="https://www.picotanks.com/wp-content/uploads/2019/05/PTMM_logo.png"  alt='image of project' className='mainPieceTitle' />
                 <ul>
                     <li>
                         <p onClick={()=>{window.open("https://www.youtube.com/watch?v=BmjuDvCMfq8");}}>Watch Trailer</p>

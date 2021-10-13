@@ -24,7 +24,7 @@ const Gallery = React.forwardRef((props, ref) => {
                     return (
                         <Link to={`/project/${names[index]}`} className='gameContainer'>
                             <div>
-                                <img src={game} />
+                                <img src={game} alt='image of project'/>
                             </div>
                         </Link>
                     );

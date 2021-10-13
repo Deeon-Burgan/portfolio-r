@@ -18,7 +18,7 @@ export default function SkillsGroup(props) {
                         return (
                             <div className='skill' style={{background:skill.color}}>
                                 <p>{skill.name}</p>
-                                <img src={skill.icon} />
+                                <img src={skill.icon}  alt='image of project'/>
                             </div>
                         )
                     })
